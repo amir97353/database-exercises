@@ -22,3 +22,4 @@ SELECT * FROM employees WHERE DAY(birth_date) = 25 AND MONTH(birth_date) = 12 AN
 SELECT DATEDIFF(NOW(), hire_date), CONCAT(first_name, ' ', last_name) FROM employees WHERE DAY(birth_date) = 25 AND MONTH(birth_date) = 12 AND hire_date LIKE '199%';
 
 
+
